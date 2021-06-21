@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 	header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, HEAD');
 	header('Access-Control-Max-Age: 1000');
 
-	/*
+	/* 
 	OLD JUSTAPPLY CODE
 	$handle=fopen("requestlog_".date("Y-m-d-h-i-s").".txt","w+");
 	fwrite($handle,print_r($_REQUEST,1));
